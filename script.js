@@ -3,7 +3,7 @@ class Animal {
 	constructor(species){
 		this.species = species;
 	}
-	getSpecies()
+	get getSpecies()
 	{
 		console.log(this.species);
 	}
